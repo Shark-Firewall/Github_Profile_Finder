@@ -41,7 +41,7 @@ function App() {
         </div>
       </form>
       {/* Listing Components */}
-      <div className="container mt-5 col">
+      <div className="container mt-3 text-center">
         <table className="table">
           <thead>
             <tr>
@@ -55,7 +55,9 @@ function App() {
           </thead>
           <tbody>
             <tr>
-              <td>{Data.avatar_url}</td>
+              <td>
+                <img src={Data.avatar_url} className="img_control" />
+              </td>
               <td>{Data.name}</td>
               <td>{Data.location}</td>
               <td>{Data.public_repos}</td>

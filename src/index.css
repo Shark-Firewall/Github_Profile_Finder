@@ -9,3 +9,8 @@ body {
   padding: 0.6rem;
   font-size: medium;
 }
+
+.img_control {
+  width: 5rem;
+  height: 5rem;
+}
