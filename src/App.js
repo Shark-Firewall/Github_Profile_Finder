@@ -41,7 +41,7 @@ function App() {
         </div>
       </form>
       {/* Listing Components */}
-      <div className="container mt-3 text-center">
+      <div className="container table-responsive mt-3 text-center">
         <table className="table">
           <thead>
             <tr>
